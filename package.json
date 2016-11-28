@@ -1,0 +1,24 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "joshwnj",
+  "license": "MIT",
+  "scripts": {
+    "watch": "watchify -v -t cmz/transform -o dist/bundle.js src/index.js",
+    "hot": "watchify -v -p browserify-hmr -t cmz/transform -o dist/bundle.js src/index.js",
+    "browser-sync": "npm run watch & browser-sync start --server --files \"**/*\""
+  },
+  "dependencies": {
+    "bespoke": "1.0.0",
+    "bespoke-backdrop": "^1.0.0",
+    "bespoke-classes": "^1.0.0",
+    "bespoke-hash": "^1.0.2",
+    "bespoke-keys": "^1.1.0",
+    "bespoke-substeps": "^1.0.1",
+    "browser-sync": "^2.18.2",
+    "browserify-hmr": "^0.3.5",
+    "cmz": "^0.5.0",
+    "watchify": "^3.7.0"
+  }
+}

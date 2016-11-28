@@ -1,0 +1,166 @@
+
+
+/********************************************************************************/
+
+.about-me {
+  flex-direction: row;
+}
+
+.about-me img {
+  width: 20vw;
+  margin-left: -2vw;
+}
+
+.about-me img:nth-child(2) {
+  width: 15vw;
+}
+
+.about-me img:first-child {
+  margin-left: 0;
+}
+
+.about-me .substep {
+  transition: all .5s ease;
+}
+
+.about-me .substep.inactive {
+  transform: translate(0, 2vh);
+  opacity: 0;
+}
+
+/********************************************************************************/
+
+.campjs .bg {
+  min-height: 100vh;
+}
+
+.campjs .substep-shrink {
+  transition: all 5s ease;
+  transform: scale(1.5);
+}
+
+.campjs .substep-shrink.active {
+  transform: scale(1.3);
+}
+
+/********************************************************************************/
+
+.cm-example {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.cm-example .label {
+  text-align: center;
+  padding-top: 10vh;
+  padding-left: 4vw;
+  width: 35vw;
+}
+
+.cm-example .line {
+  display: block;
+  width: 90%;
+  height: 3vh;
+  margin: 0 auto;
+  margin-top: 2vh;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+
+.cm-example .files {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.cm-example .component {
+  width: 100%;
+}
+
+.cm-example .import {
+  transition: color .5s ease;
+}
+
+.cm-example .import.active {
+  color: #F66;
+}
+
+/********************************************************************************/
+
+.js-modules-css-modules {
+  flex-direction: row;
+}
+
+.js-modules-css-modules .js,
+.js-modules-css-modules .css {
+  position: relative;
+  width: 40vw;
+}
+
+.js-modules-css-modules .js {
+  margin-right: 4vw;
+}
+
+.js-modules-css-modules h1 {
+  border-bottom: 1px solid #000;
+}
+
+.js-modules-css-modules ul {
+  margin-left: 4vw;
+}
+
+.js-modules-css-modules .circle {
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 40vw;
+  border: 1px solid #000;
+  transform: translate(0, -20vw);
+  transition: all .5s ease;
+}
+
+.js-modules-css-modules .js .circle.active {
+  transform: translate(22vw, -20vw);
+  opacity: 0.3;
+}
+
+.js-modules-css-modules .css .circle.active {
+  transform: translate(-22vw, -20vw);
+  opacity: 0.3;
+}
+
+/********************************************************************************/
+
+.ewok {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ewok img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ewok .substep-wipe-up {
+  transition: all 3s ease;
+  -webkit-clip-path: circle(0 at 29% 91%);
+}
+
+.ewok .substep-wipe-up.active {
+  -webkit-clip-path: circle(1500px at 29% 91%);
+}
+
+/********************************************************************************/
+
+.label-example {
+  
+}
+
+.label-example .questions h1 {
+  text-align: left;
+}
