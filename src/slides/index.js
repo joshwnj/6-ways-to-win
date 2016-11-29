@@ -122,7 +122,7 @@ function problem (text, sub) {
 
 module.exports = function () {
   return [
-    heading('At Least <br/>6 Ways to Win <br/> with CSS Modules'),
+    require('./title')(),
 
     require('./about-me')(),
     require('./campjs')(),
