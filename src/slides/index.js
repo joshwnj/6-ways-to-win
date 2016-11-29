@@ -157,7 +157,7 @@ module.exports = function () {
     require('./nesting')(),
     require('./nesting-2')(),
     heading('CSS Modules automatically namespaces classes'),
-    heading('Improve your code by deleting it'),
+    heading('You can improve your code by deleting it??'),
     win(1, 'Don&rsquo;t manually namespace your classes'),
 
     require('./magic')(),

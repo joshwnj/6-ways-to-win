@@ -8,7 +8,7 @@ const styles = cmz.inline('', `
 
 .images img {
   margin-top: 5vh;
-  max-width: 20vw;
+  max-width: 30vw;
 }
 
 `, {
@@ -24,10 +24,10 @@ module.exports = function () {
     tag('.examples', {}, [
       tag('.file', {}, `avatar.css<code><pre>.avatar {
   ...
-  width: 100%;
+  width: 10rem;
 }</pre></code>`),
       tag('.leaderboard-css', {}, `leaderboard.css<code><pre>.leaderboard .avatar {
-  width: 50%;
+  width: 5rem;
 }
 </pre></code>`),
     ]),

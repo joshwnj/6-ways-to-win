@@ -30,7 +30,7 @@ module.exports = function () {
     tag('h1.heading', {}, 'There&rsquo;s Logic in our CSS!'),
     tag('.examples-1', {}, [
       tag('.file', {}, `<code><pre>.leaderboard .avatar {
-  width: 50%;
+  width: 5rem;
 }</pre></code>`),
       tag('code.logic', {}, `<b>if</b> the Avatar appears within a Leaderboard,
 <b>then</b> make it smaller`)
@@ -41,11 +41,11 @@ module.exports = function () {
 }
 
 .big {
-  width: 100%;
+  width: 10rem;
 }
 
 .small {
-  width: 50%;
+  width: 5rem;
 }</pre></code>`),
       tag('.file', {}, `<code><pre>
 // normal avatar

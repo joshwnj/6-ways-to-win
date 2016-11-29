@@ -4,8 +4,15 @@ const styles = cmz.inline('', `
   margin-bottom: 10vh;
 }
 
-.examples {
-  display: flex;
+.holder {
+  max-height: 70vh;
+  overflow: hidden;
+}
+
+.file {
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
 
 .code {
@@ -38,9 +45,9 @@ function renderCode () {
 module.exports = function () {
   return tag('slide.&', {}, [
     tag('h1.heading', {}, 'Typechecking CSS'),
-    tag('.examples', {}, [
+    tag('.holder', {}, [
       tag('img', { src: 'src/images/with-flow.png' }),
-      renderCode()
-    ])
+    ]),
+    renderCode()
   ])
 }

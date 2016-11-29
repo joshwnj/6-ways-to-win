@@ -1,4 +1,6 @@
 const cmz = require('cmz')
+
+cmz('../components/rank.css')
 const styles = cmz.inline('', `
 .image {
   width: 22vw;

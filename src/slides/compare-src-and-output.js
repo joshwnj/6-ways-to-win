@@ -18,19 +18,21 @@ function renderFileA () {
     tag('pre', {}, [
       tag('code', {},
 `.rank {
-  ...
+  display: flex;
+  background: white;
 }
 
 .avatar {
-  ...
+  width: 5rem;
+  border-radius: 10rem;
 }
 
 .name {
-  ...
+  font-weight: bold;
 }
 
 score {
-  ...
+  color: grey;
 }
 `)
     ])
@@ -40,6 +42,6 @@ score {
 module.exports = function () {
   return tag('slide.&', {}, [
     renderFileA(),
-    tag('img.leaderboard', { src: 'src/images/leaderboard.png' }),
+    tag('img.leaderboard', { src: 'src/images/css-output.png' }),
   ])
 }
