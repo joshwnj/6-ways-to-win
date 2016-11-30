@@ -2,6 +2,11 @@
 
 Slides from <http://2016.cssconf.com.au/>
 
+- watch: <https://youtu.be/skzcEKewOwc?t=2h7m57s>
+- slides: <https://github.com/joshwnj/6-ways-to-win>
+
+## viewing the slides locally
+
 ```
 npm install
 npm run watch
