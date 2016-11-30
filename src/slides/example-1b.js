@@ -38,7 +38,7 @@ index.js
 export default function (props) {
   return \`
     &lt;div class=\${<span class="import substep" data-order=4>styles.root</span>}&gt;
-      &lt;img class=\${<span class="import substep" data-order=5>styles.avatar</span>} src=\${props.avatarUrl} /&gt;
+      &lt;img class=\${<span class="import substep" data-order=5>styles.avatar</span>} src=\${props.url} /&gt;
       &lt;span class=\${<span class="import substep" data-order=6>styles.name</span>}&gt;\${props.name}&lt;/span&gt;
     &lt;/div&gt;
   \`

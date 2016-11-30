@@ -1,4 +1,8 @@
 const cmz = require('cmz')
+
+// use this for the browser screenshot
+cmz('../components/rank.css')
+
 const styles = cmz.inline('', `
 
 .leaderboard {
@@ -31,7 +35,7 @@ function renderFileA () {
   font-weight: bold;
 }
 
-score {
+.score {
   color: grey;
 }
 `)

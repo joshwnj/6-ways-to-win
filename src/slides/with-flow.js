@@ -12,7 +12,7 @@ const styles = cmz.inline('', `
 .file {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 25%;
 }
 
 .code {

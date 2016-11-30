@@ -156,7 +156,7 @@ module.exports = function () {
     problem('CSS Modules might not have the features you&rsquo;re used to'),
     require('./nesting')(),
     require('./nesting-2')(),
-    heading('CSS Modules automatically namespaces classes'),
+    heading('CSS Modules automatically namespaces classes <div class="substep substep-fade"><code style="font-size: 5vw">.score -> .components_rank__score</code></div>'),
     heading('You can improve your code by deleting it??'),
     win(1, 'Don&rsquo;t manually namespace your classes'),
 
@@ -179,14 +179,14 @@ module.exports = function () {
     win(4, 'Embrace immutability'),
 
     problem('You&rsquo;ll need a build tool', 'like browserify or webpack'),
-    placeholder('example: old bundling, new bundling'),
+    require('./bundling')(),
     win(5, 'Give your JS modules CSS dependencies'),
 
     tag('section', {}, [
       tag('h1.heading-l', { style: 'font-size: 16vw' }, 'FORC'),
       tag('div', { class: 'substep substep-fade', style: 'font-size: 5vw' }, 'Fear of Removing CSS')
     ]),
-    placeholder('example: css in the tree'),
+    require('./css-in-the-tree.js'),
     win(6, 'Defeat FORC'),
 
     heading('Everything is a tradeoff'),

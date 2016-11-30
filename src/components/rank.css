@@ -1,0 +1,18 @@
+.rank {
+  display: flex;
+  background: white;
+}
+
+.avatar {
+  width: 5rem;
+  border-radius: 10rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.score {
+  color: grey;
+}
+
