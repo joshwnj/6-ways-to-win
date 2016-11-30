@@ -2,7 +2,7 @@
 
 Slides from <http://2016.cssconf.com.au/>
 
-- watch: <https://youtu.be/skzcEKewOwc?t=2h7m57s>
+- watch: <https://youtu.be/skzcEKewOwc?t=3h12m29s>
 - slides: <https://joshwnj.github.io/6-ways-to-win/>
 
 ## viewing the slides locally
